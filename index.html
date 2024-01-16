@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
+
+		<!-- FONT: Barlow & Barlow Condensed (400, 600) -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;600&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="./dist/main.css" />
+		<title>Project Tracking Intro Component</title>
+	</head>
+
+	<body>
+		<header class="header">
+			<nav class="container">
+				<a href="/" class="nav__logo">
+					<img src="./images/logo.svg" alt="Logo" />
+				</a>
+
+				<div class="nav__toggle hide-for-desktop">
+					<span></span><span></span><span></span>
+				</div>
+
+				<div class="nav__links hide-for-mobile">
+					<a class="link" href="#">product</a><a class="link" href="#">features</a
+					><a class="link" href="#">pricing</a>
+					<div class="dot"></div>
+					<a href="#" class="link nav__cta">login</a>
+				</div>
+			</nav>
+
+			<div class="header__menu has-fade hide-for-desktop">
+				<a class="link" href="#">product</a><a class="link" href="#">features</a
+				><a class="link" href="#">pricing</a><a href="#" class="link header__cta">login</a>
+			</div>
+		</header>
+
+		<main class="main">
+			<div class="main__image"></div>
+
+			<div class="main__text container">
+				<div class="info">
+					<span class="badge">new</span
+					><span class="info-text text-light">monograph dashboard</span>
+				</div>
+
+				<h1>Powerful insights<br />into your team</h1>
+				<p>Project planning and time tracking<br />for agile teams</p>
+
+				<div class="btn-container">
+					<button>schedule a demo</button><span class="text-light">to see a preview</span>
+				</div>
+			</div>
+		</main>
+
+		<script src="./app/js/script.js"></script>
+	</body>
+</html>
